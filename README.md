@@ -1,7 +1,9 @@
-# Tadaland public partnership directory
+# Tadaland encrypted partnership directory
 
-Public-source business, venue and campus contacts, researched 20 October 2026. Search, category and contact filters, exact source evidence and CSV downloads. No login required. This is a static snapshot; it does not perform live research or synchronise private notes. No private notes, priorities or outreach status are included. Two suppressed original records are omitted.
+https://kaelnebula.github.io/tadaland-directory/
 
-Data © OpenStreetMap contributors, ODbL 1.0, where attributed. Education data sourced from DATA.GOV.HK. Other business contacts retain their exact official/trade-directory source. Public publication does not establish deliverability, WhatsApp activity or licensing authority.
+The current website requires the shared password. The directory, application and downloads are encrypted with AES-256-GCM; the browser derives the key with PBKDF2-SHA256, 600,000 iterations and a random salt. The password is not stored in this repository. Refresh or Lock directory clears the unlocked page. Shortlists remain browser-local.
 
-No visitor analytics or tracking. Shortlists are stored only in the current browser. No outreach is sent.
+This is shared-password encryption for a static website, not individual server-side accounts. It cannot revoke earlier public copies or prevent an authorised viewer from sharing downloaded data. Earlier commits contained the public-source snapshot before password protection; private workflow notes were never published.
+
+The decrypted snapshot retains source attribution, dates, suppressed-record exclusions and contact uncertainty. No analytics or outreach is used.
